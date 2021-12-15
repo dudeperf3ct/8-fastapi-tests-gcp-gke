@@ -44,7 +44,7 @@ metadata:
               'f:terminationGracePeriodSeconds': {}
       manager: GoogleCloudConsole
       operation: Update
-      time: '2021-12-14T13:33:32Z'
+      time: '2021-12-15T11:58:57Z'
     - apiVersion: apps/v1
       fieldsType: FieldsV1
       fieldsV1:
@@ -78,7 +78,7 @@ metadata:
           'f:updatedReplicas': {}
       manager: kube-controller-manager
       operation: Update
-      time: '2021-12-14T13:33:59Z'
+      time: '2021-12-15T11:59:28Z'
   name: gke-fastapi
   namespace: default
 spec:
@@ -125,7 +125,7 @@ metadata:
             'f:name': {}
       manager: GoogleCloudConsole
       operation: Update
-      time: '2021-12-14T13:33:32Z'
+      time: '2021-12-15T11:58:58Z'
     - apiVersion: autoscaling/v1
       fieldsType: FieldsV1
       fieldsV1:
@@ -139,8 +139,8 @@ metadata:
           'f:desiredReplicas': {}
       manager: vpa-recommender
       operation: Update
-      time: '2021-12-14T13:33:49Z'
-  name: gke-fastapi-hpa-zltn
+      time: '2021-12-15T11:59:14Z'
+  name: gke-fastapi-hpa-q7rm
   namespace: default
 spec:
   maxReplicas: 5
@@ -188,7 +188,7 @@ metadata:
           'f:type': {}
       manager: GoogleCloudConsole
       operation: Update
-      time: '2021-12-14T13:35:04Z'
+      time: '2021-12-15T12:00:18Z'
     - apiVersion: v1
       fieldsType: FieldsV1
       fieldsV1:
@@ -201,19 +201,19 @@ metadata:
             'f:ingress': {}
       manager: kube-controller-manager
       operation: Update
-      time: '2021-12-14T13:35:49Z'
+      time: '2021-12-15T12:01:06Z'
   name: gke-fastapi-service
   namespace: default
 spec:
-  clusterIP: 10.116.7.23
+  clusterIP: 10.116.10.137
   clusterIPs:
-    - 10.116.7.23
+    - 10.116.10.137
   externalTrafficPolicy: Cluster
   ipFamilies:
     - IPv4
   ipFamilyPolicy: SingleStack
   ports:
-    - nodePort: 31580
+    - nodePort: 30780
       port: 8000
       protocol: TCP
       targetPort: 8000

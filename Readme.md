@@ -1,6 +1,6 @@
 # Sentiment Classification
 
-Exposed endpoint : http://34.66.115.66:8000/
+Exposed endpoint : http://34.72.165.159:8000/
 
 In this project, we will deploy a sentiment analyser model using fastapi on GCP using GKE.
 
@@ -44,6 +44,15 @@ Guide: https://cloud.google.com/kubernetes-engine/docs/how-to/automated-deployme
 > Expose port of 8000 after deploy under `Workloads > ACTIONS > Expose` in Kubernetes Engine. 
 
 > Setup up automatic deploy using Cloud Build and Github under `Workloads > ACTIONS > Automated deployment`. 
+
+Test the application endpoint
+
+```bash
+curl -X 'POST' \
+  'http://34.72.165.159:8000/classify?input_text=i%20like%20you' \
+  -H 'accept: application/json' \
+  -d ''
+```
 
 ## Additional Exercise
 

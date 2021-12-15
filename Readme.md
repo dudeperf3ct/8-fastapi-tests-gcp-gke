@@ -41,9 +41,9 @@ Deploy the application on Google Kubernetes Engine (GKE).
 
 Guide: https://cloud.google.com/kubernetes-engine/docs/how-to/automated-deployment
 
-Expose port of 8000 after deploy under `Workloads > ACTIONS > Expose` in Kubernetes Engine 
+> Expose port of 8000 after deploy under `Workloads > ACTIONS > Expose` in Kubernetes Engine. 
 
-Setup up automatic deploy using Cloud Build and Github under `Workloads > ACTIONS > Automated deployment`. 
+> Setup up automatic deploy using Cloud Build and Github under `Workloads > ACTIONS > Automated deployment`. 
 
 ## Additional Exercise
 
